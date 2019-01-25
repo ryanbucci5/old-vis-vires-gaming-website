@@ -1,0 +1,291 @@
+// Main Sass File
+
+$primary-overlay: linear-gradient(to right, rgba(255, 0, 0, 0.31), rgba(0, 0, 0, 0), rgba(0, 0, 255, 0.31));
+$background-primary: #242424;
+$less-gray-background: #454545;
+$less-white-background: #ededed;
+$primary-blue: #007bff;
+$more-gray-background: #e0e0e0;
+
+
+body {
+    background-color: $background-primary;
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+}
+
+#header {
+    position: relative;
+    background: url(../img/battle_for_azeroth_header_image.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    
+    .primary-overlay {
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.about-paragraph {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#header-icons {
+    
+    background: $less-white-background;
+    font-weight: 700;
+    
+    .fa-gamepad {
+        font-size: 8rem;
+        background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .fa-users {
+        font-size: 8rem;
+        background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .fa-handshake-o {
+        font-size: 8rem;
+        background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}
+
+#about {
+    background: url(../img/about-header-img.jpeg);
+    background-size: cover;
+    background-position: top;
+    min-height: 700px;
+    
+    
+    .fa-shield {
+        font-size: 8rem;
+    }
+    
+    
+    .soldiers {
+        font-size: 1.9rem;
+    }
+    
+
+}
+
+.pt-6 {
+    padding-top: 5rem;
+}
+
+.pt-7 {
+    padding-top: 9rem;
+}
+
+#community-section {
+    background: $less-white-background;
+    font-weight: 700;
+    
+    .fa-users {
+        font-size: 8rem;
+        background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .fa-trophy {
+        font-size: 8rem;
+        background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .fa-gamepad {
+        font-size: 8rem;
+        background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .community-card {
+        font-size: 1.3rem;
+    }
+    
+    .WoW-Logo {
+        width: auto;
+        height: 80px;
+    }
+    
+    .OW-Logo {
+        width: auto;
+        height: 80px;
+    }
+    
+    .PUBG-Logo {
+        width: auto;
+        height: 80px;
+    }
+    
+    .HS-Logo {
+        width: auto;
+        height: 80px;
+    }
+    
+    .HOTS-Logo {
+        width: auto;
+        height: 80px;
+    }
+    
+    .and-other-games {
+        font-size: 35px;
+    }
+    
+    
+    .WoWProgress_Link:active,
+    .WoWProgress_Link:hover {
+        text-decoration: none;
+        
+    }
+    
+    .WoWProgress_Link:visited {
+        text-decoration: none;
+    }
+    
+    .RaiderIO_Link:active,
+    .RaiderIO_Link:hover {
+        text-decoration: none;
+    }
+}
+
+.community-paragraph {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.display-5 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.text-dark {
+    color: #343434;
+}
+
+.display-8 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#watch-us {
+    background: #fff;
+}
+
+#contact {
+    background: $more-gray-background;
+}
+
+@media screen and (max-width: 568px) {
+    
+    
+    .vis-vires-meaning-nouns-verbs {
+        text-align: center;
+    }
+    
+    .vis-vires-origin {
+        text-align: center;
+    }
+    
+    .vis-vires-status {
+        text-align: center;
+    }
+    
+    .vis-vires-def {
+        text-align: center;
+    }
+    
+    .thx-for-contact-text,
+    .well-be-in-touch-soon-text,
+    .contact-go-back-text {
+        font-size: 2.5rem;
+    }
+    
+    .contact-us-success-image {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .community-header {
+        font-size: 2.8rem;
+    }
+    
+    .contact-us-header {
+        font-size: 3rem;
+    }
+    
+    .thx-for-contact-text,
+    .well-be-in-touch-soon-text,
+    .contact-go-back-text {
+        font-size: 2.5rem;
+    }
+    
+    .contact-us-success-image {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contact-us-header {
+        font-size: 2.5rem;
+    }
+    
+    .community-header {
+        font-size: 2.7rem;
+    }
+    
+    .about-header {
+        font-size: 3.2rem;
+    }
+    
+    .inspiration-header {
+        font-size: 2.7rem;
+    }
+    
+    .our-mission-header {
+        font-size: 2.5rem;
+    }
+    
+   .vis-vires-header {
+        font-size: 3rem;
+    }
+    
+    .thx-for-contact-text,
+    .well-be-in-touch-soon-text,
+    .contact-go-back-text {
+        font-size: 2.5rem;
+    }
+    
+    .contact-us-success-image {
+        width: 200px;
+        height: auto;
+    }
+    
+}
+
+
+#contact-success-page {
+       background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
+}
